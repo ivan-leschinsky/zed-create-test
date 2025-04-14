@@ -7,7 +7,7 @@
 ```json
 {
   "label": "create-open-test",
-  "command": "~/path-to-zed_create_rspec/zed_create_rspec",
+  "command": "~/path-to-zed_create_spec/zed_create_spec",
   "hide": "always",
   "reveal": "never",
   "args": ["\"$ZED_RELATIVE_FILE\""],
@@ -32,7 +32,7 @@
 
 ### How to build and run go version:
 ```shell
-go build -o zed_create_rspec zed_create_rspec.go
-./zed_create_rspec app/controllers/some_controller.rb
-./zed_create_rspec spec/controllers/some_controller_spec.rb
+go build -o zed_create_spec zed_create_spec.go
+./zed_create_spec app/controllers/some_controller.rb
+./zed_create_spec spec/controllers/some_controller_spec.rb
 ```
